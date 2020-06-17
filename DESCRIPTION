@@ -1,0 +1,19 @@
+Package: rewie
+Type: Package
+Title: Data Preparation for Random Effects Within Estimator
+Version: 0.1.0
+Author: c(person("Scott","Duxbury",email="sduxburycpt@gmail.com", role=c("aut","cre","cph")))
+Maintainer: Scott Duxbury <sduxburycpt@gmail.com>
+Description: Diagnostics and data preparation for random effects within estimator, random effects 
+    within-idiosyncratic estimator, between-within-idiosyncratic model, and cross-classified between model.
+    URL: <http://github.com/sduxbury/rewie>.
+    BugReports: <http://github.com/sduxbury/rewie/issues>.
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rockchalk,
+    lme4,
+    MASS,
+    plm,
+    stats
